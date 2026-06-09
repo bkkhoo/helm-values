@@ -6,8 +6,9 @@ rbac:
   defaultPolicy: "role:admin"
 repo:
   replicas: 1
-ha:
-  enabled: false
+redis:
+  ha:
+    enabled: false
 controller:
   sharding:
     enabled: false

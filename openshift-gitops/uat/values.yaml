@@ -10,8 +10,9 @@ repo:
   replicas: 3
 ha:
   enabled: true
-tls:
-  customCA: "custom-ca.crt"
+redis:
+  tls:
+    customCA: "custom-ca.crt"
 controller:
   sharding:
     enabled: true
