@@ -11,7 +11,7 @@ bgp:
   holdTime: 90s
   passwordSecret: bgp-secret
   ebgpMultiHop: false
-  aggregationLength: 29
+  aggregationLength: 30
   communities:
     - 65535:65281           # NO_EXPORT
     - 65535:65282           # NO_ADVERTISE
