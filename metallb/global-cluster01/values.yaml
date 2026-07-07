@@ -9,7 +9,6 @@ bgp:
   routerID: 10.118.10.13
   keepaliveTime: 30s
   holdTime: 90s
-  passwordSecret: bgp-secret
   ebgpMultiHop: false
   aggregationLength: 30
   communities:
