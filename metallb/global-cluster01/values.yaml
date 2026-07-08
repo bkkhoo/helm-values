@@ -1,8 +1,8 @@
 ---
 advertisementMode: bgp
 ipAddressRanges:
-  - 10.176.25.64/28
-  - 10.13.113.1-10.13.113.10
+  - 10.13.112.0/28
+  - 10.13.113.0-10.13.113.15
 bgp:
   myASN: 64513
   peerASN: 64513
