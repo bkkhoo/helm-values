@@ -4,19 +4,22 @@ ipAddressRanges:
   - 10.13.112.0/28
   - 10.13.113.0-10.13.113.15
 bgp:
-  myASN: 64513
-  peerASN: 64513
-  routerID: 10.118.10.13
+  myASN: 64512
+  peerASN: 64511
+  routerID: 10.113.18.13
   keepaliveTime: 30s
   holdTime: 90s
   ebgpMultiHop: false
-  aggregationLength: 30
+  aggregationLength: 29
   communities:
     - 65535:65281           # NO_EXPORT
     - 65535:65282           # NO_ADVERTISE
   peers:
-    - peerAddress: 10.118.11.1
-      peerPort: 179
-    - peerAddress: 10.118.11.2
-      peerPort: 179
+    - peerAddress: 10.10.10.30
+      peerPort: 1793
+    - peerAddress: 10.10.10.31
+      peerPort: 1793
+  bfd:
+    receiveInterval: 300    # milliseconds
+    transmitInterval: 300   # milliseconds
 ...
