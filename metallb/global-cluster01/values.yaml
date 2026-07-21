@@ -15,9 +15,9 @@ bgp:
     - 65535:65281           # NO_EXPORT
     - 65535:65282           # NO_ADVERTISE
   peers:
-    - peerAddress: 10.0.69.96
+    - peerAddress: 10.10.10.31
       peerPort: 1793
-    - peerAddress: 10.0.59.158
+    - peerAddress: 10.10.10.32
       peerPort: 1793
   bfd:
     receiveInterval: 300    # milliseconds
