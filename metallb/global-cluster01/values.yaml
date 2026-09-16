@@ -1,12 +1,12 @@
 ---
 advertisementMode: bgp
 ipAddressRanges:
-  - 10.13.112.0/28
-  - 10.13.113.0-10.13.113.15
+  - 10.13.117.0/28
+  - 10.13.118.0-10.13.118.14
 bgp:
   myASN: 64512
   peerASN: 64511
-  routerID: 10.113.18.13
+  routerID: 10.113.117.1
   keepaliveTime: 30s
   holdTime: 90s
   ebgpMultiHop: false

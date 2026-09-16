@@ -1,0 +1,6 @@
+---
+advertisementMode: l2
+ipAddressRanges:
+  - 10.13.113.0/28
+  - 10.13.114.1-10.13.114.14
+...
